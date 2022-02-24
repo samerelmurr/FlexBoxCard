@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&family=Supermercado+One&display=swap');
+
+html, body{
+    height:100vh;
+    background: blueviolet;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;   
+}
+
+.card img{
+    height: auto;
+    width: 20vw;
+}
